@@ -21,11 +21,11 @@ import copy
 import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 import torch.nn as nn
 from datasets.read_imdb_data import IMDBDatasets
 from datasets.read_megaasian_data import MegaAgeAsianDatasets
-from datasets.read_face_age_data import FaceAgeDatasets
+# from datasets.read_face_age_data import FaceAgeDatasets
 from SSR_models.SSR_Net_model import SSRNet
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

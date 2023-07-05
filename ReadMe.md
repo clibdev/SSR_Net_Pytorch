@@ -1,4 +1,19 @@
->_author_   :   oukohou  
+# Fork of [oukohou/SSR_Net_Pytorch](https://github.com/oukohou/SSR_Net_Pytorch)
+
+Differences between original repository and fork:
+
+* Compatibility with PyTorch >=2.0. (🔥)
+* Installation with updated [requirements.txt](requirements.txt) file.
+
+# Installation
+
+```shell
+pip install -r requirements.txt
+```
+
+
+
+> >_author_   :   oukohou  
 >_time_     :   2019-09-26 16:44:48  
 >_email_    :   oukohou@outlook.com
 

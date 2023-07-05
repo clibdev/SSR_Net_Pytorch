@@ -46,7 +46,7 @@ def inference_single_image(model_, image_path_, input_size_=64):
 
 
 if __name__ == "__main__":
-    image_file_path = "../../datasets/megaage_asion/megaage_asian/megaage_asian/test/13.jpg"
+    image_file_path = "./data/images/88_megaage_asian_32_age.jpg"
     model_file = "./pretrained_model/model_Adam_MSELoss_LRDecay_weightDecay0.0001_batch50_lr0.0005_epoch90_64x64.pth"
     
     parser = argparse.ArgumentParser()
