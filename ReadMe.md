@@ -11,6 +11,13 @@ Differences between original repository and fork:
 pip install -r requirements.txt
 ```
 
+# Inference
+
+```shell
+python inference_images.py --graph pretrained_model/model_Adam_MSELoss_LRDecay_weightDecay0.0001_batch50_lr0.0005_epoch90_64x64.pth --image data/images/88_megaage_asian_32_age.jpg
+```
+
+
 
 
 > >_author_   :   oukohou  
