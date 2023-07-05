@@ -3,6 +3,7 @@
 Differences between original repository and fork:
 
 * Compatibility with PyTorch >=2.0. (🔥)
+* Original pretrained models and converted ONNX models from GitHub [releases page](https://github.com/clibdev/SSR_Net_Pytorch/releases). (🔥)
 * Installation with updated [requirements.txt](requirements.txt) file.
 
 # Installation
