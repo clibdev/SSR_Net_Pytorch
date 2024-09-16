@@ -63,7 +63,7 @@ if __name__ == "__main__":
     input_size = 64
     
     inference_model = SSRNet()
-    loaded_model = torch.load(model_file)
+    loaded_model = torch.load(model_file, weights_only=True)
     inference_model.load_state_dict(loaded_model['state_dict'])
     inference_model = inference_model.to(device)
     inference_model.eval()

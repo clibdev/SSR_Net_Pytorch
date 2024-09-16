@@ -16,7 +16,7 @@ if __name__ == '__main__':
         exit()
 
     model = SSRNet()
-    weights = torch.load(args.weights)
+    weights = torch.load(args.weights, weights_only=True)
     model.load_state_dict(weights['state_dict'])
     model = model.to(args.device)
     model.eval()
